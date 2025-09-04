@@ -26,3 +26,21 @@ Global
 		{E01D63DD-AF5D-4F73-8EA5-B28789E60F66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
+# Mininal API
+
+Projeto de exemplo de uma API .NET 7, criado para fins de portfólio na DIO.
+
+## Funcionalidades
+- Endpoints GET, POST, PUT, DELETE
+- Swagger para documentação automática
+- Testes unitários com xUnit
+
+## Estrutura
+- Api/ → Código da API
+- Test/ → Projetos de testes
+- mininal-api.sln → Solução do Visual Studio
+
+## Rodando localmente
+```bash
+dotnet run --project Api/mininal-api.csproj
+
